@@ -1,0 +1,25 @@
+{
+  "name": "cssparser",
+  "version": "0.0.1",
+  "description": "A CSS parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LingYanSi/CssParser.git"
+  },
+  "keywords": [
+    "css-parser"
+  ],
+  "author": "lingyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LingYanSi/CssParser/issues"
+  },
+  "homepage": "https://github.com/LingYanSi/CssParser#readme",
+  "dependencies": {
+    "webpack": "^4.30.0"
+  }
+}
