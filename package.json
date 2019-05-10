@@ -4,7 +4,8 @@
   "description": "A CSS parser",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc; rollup build/index.js --file dist/index.js --format umd --name \"cssParser\""
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,6 @@
   },
   "homepage": "https://github.com/LingYanSi/CssParser#readme",
   "dependencies": {
-    "webpack": "^4.30.0"
+    "rollup": "^1.11.3"
   }
 }

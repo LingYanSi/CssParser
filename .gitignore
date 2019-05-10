@@ -1,4 +1,4 @@
-dist
+build
 node_modules
 # log文件
 *.log

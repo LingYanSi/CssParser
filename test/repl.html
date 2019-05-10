@@ -8,5 +8,21 @@
 </head>
 <body>
     <h1>CSS Parser REPL</h1>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <pre id="output"></pre>
+    <script src="./../dist/index.js"></script>
+    <script>
+        const input = document.querySelector('textarea')
+        const output = document.querySelector('#output')
+        let parseTimeout = -1
+
+        function parse() {
+            clearTimeout(parseTimeout)
+            parseTimeout = setTimeout(() => {
+                output.textContent =  cssParser(input.value)
+            }, 1000)
+        }
+        input.addEventListener('input', parse)
+    </script>
 </body>
 </html>
